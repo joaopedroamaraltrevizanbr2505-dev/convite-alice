@@ -20,11 +20,11 @@
     }
     *{box-sizing:border-box}
     body{
-      margin:0;
-  font-family: ...
-  color:var(--txt);
+       margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  color: #5a0040;
   min-height:100vh;
-  background: #ffb6dc;
+  background: #ff69b4;
     }
     .wrap{max-width:980px; width:100%;}
     .grid{
@@ -43,13 +43,13 @@
       overflow:hidden;
       position:relative;
     }
-    .card::before{
-      content:"";
-      position:absolute; inset:-2px;
-      background:linear-gradient(120deg, rgba(255,79,216,.35), rgba(106,228,255,.35));
-      filter: blur(26px);
-      opacity:.35;
-      z-index:0;
+    .card: 
+    background:#ffffff;
+  border:1px solid #ffd6ec;
+  box-shadow: 0 10px 25px rgba(255,105,180,.25);
+  border-radius:22px;
+  overflow:hidden;
+  position:relative;
     }
     .card > *{position:relative; z-index:1;}
     header{
